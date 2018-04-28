@@ -4,7 +4,10 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "botui": "^0.3.4"
+    "@google-cloud/language": "^1.2.0",
+    "@google-cloud/storage": "1.4.0",
+    "botui": "^0.3.4",
+    "require": "^2.4.20"
   },
   "devDependencies": {},
   "scripts": {
