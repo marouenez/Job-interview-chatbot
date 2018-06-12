@@ -52,7 +52,7 @@ function pStart() {
   $.ajax({
     url: 'https://api.dialogflow.com/v1/query?v=20150910&query=pstart&lang=en&sessionId=1',
     beforeSend: function(xhr) {
-      xhr.setRequestHeader("Authorization", "Bearer 60d363afe030470bbe60ed2edaef60da")
+      xhr.setRequestHeader("Authorization", "Bearer XXXXXXXXXXXXXXX")
     },
     success: function(data) {
 
@@ -95,7 +95,7 @@ function profilingTest() {
         $.ajax({
           url: 'https://api.dialogflow.com/v1/query?v=20150910&query=' + res.value + '&lang=en&sessionId=1',
           beforeSend: function(xhr) {
-            xhr.setRequestHeader("Authorization", "Bearer 60d363afe030470bbe60ed2edaef60da")
+            xhr.setRequestHeader("Authorization", "Bearer XXXXXXXXXXXXXXX")
           },
           success: function(data) {
 
@@ -121,7 +121,7 @@ function profilingTest() {
       $.ajax({
         url: 'https://api.dialogflow.com/v1/query?v=20150910&query=' + res.value + '&lang=en&sessionId=1',
         beforeSend: function(xhr) {
-          xhr.setRequestHeader("Authorization", "Bearer 60d363afe030470bbe60ed2edaef60da")
+          xhr.setRequestHeader("Authorization", "Bearer XXXXXXXXXXXXXXXXX")
         },
         success: function(data) {
 
@@ -201,7 +201,7 @@ function fStart() {
   $.ajax({
     url: 'https://api.dialogflow.com/v1/query?v=20150910&query=fstart&lang=en&sessionId=1',
     beforeSend: function(xhr) {
-      xhr.setRequestHeader("Authorization", "Bearer 60d363afe030470bbe60ed2edaef60da")
+      xhr.setRequestHeader("Authorization", "Bearer XXXXXXXXXXXXX")
     },
     success: function(data) {
 
@@ -241,7 +241,7 @@ function firstTest() {
     $.ajax({
       url: 'https://api.dialogflow.com/v1/query?v=20150910&query=' + res.value + '&lang=en&sessionId=1',
       beforeSend: function(xhr) {
-        xhr.setRequestHeader("Authorization", "Bearer 60d363afe030470bbe60ed2edaef60da")
+        xhr.setRequestHeader("Authorization", "Bearer XXXXXXXXXXXXXXXXXX")
       },
       success: function(data) {
 
@@ -261,7 +261,7 @@ function firstTest() {
             $.ajax({
               url: 'https://api.dialogflow.com/v1/query?v=20150910&event=firstq2&lang=en&sessionId=1',
               beforeSend: function(xhr) {
-                xhr.setRequestHeader("Authorization", "Bearer 60d363afe030470bbe60ed2edaef60da")
+                xhr.setRequestHeader("Authorization", "Bearer XXXXXXXXXXXXXXXXXX")
               },
               success: function(data) {
                 intent = data.result.metadata.intentName;
@@ -293,7 +293,7 @@ function firstTest() {
             $.ajax({
               url: 'https://api.dialogflow.com/v1/query?v=20150910&event=firstq3&lang=en&sessionId=1',
               beforeSend: function(xhr) {
-                xhr.setRequestHeader("Authorization", "Bearer 60d363afe030470bbe60ed2edaef60da")
+                xhr.setRequestHeader("Authorization", "Bearer XXXXXXXXXXXXXXXX")
               },
               success: function(data) {
                 intent = data.result.metadata.intentName;
@@ -327,7 +327,7 @@ function firstTest() {
             $.ajax({
               url: 'https://api.dialogflow.com/v1/query?v=20150910&event=firstq3&lang=en&sessionId=1',
               beforeSend: function(xhr) {
-                xhr.setRequestHeader("Authorization", "Bearer 60d363afe030470bbe60ed2edaef60da")
+                xhr.setRequestHeader("Authorization", "Bearer XXXXXXXXXXXXXXXXXXXX")
               },
               success: function(data) {
                 intent = data.result.metadata.intentName;
@@ -357,7 +357,7 @@ function firstTest() {
             $.ajax({
               url: 'https://api.dialogflow.com/v1/query?v=20150910&event=firstq3&lang=en&sessionId=1',
               beforeSend: function(xhr) {
-                xhr.setRequestHeader("Authorization", "Bearer 60d363afe030470bbe60ed2edaef60da")
+                xhr.setRequestHeader("Authorization", "Bearer XXXXXXXXXXXXXXXXXXXXXXXXXXXX")
               },
               success: function(data) {
                 intent = data.result.metadata.intentName;
@@ -447,7 +447,7 @@ function fStart() {
   $.ajax({
     url: 'https://api.dialogflow.com/v1/query?v=20150910&query=fstart&lang=en&sessionId=1',
     beforeSend: function(xhr) {
-      xhr.setRequestHeader("Authorization", "Bearer 60d363afe030470bbe60ed2edaef60da")
+      xhr.setRequestHeader("Authorization", "Bearer XXXXXXXXXXXXXXXXXXXX")
     },
     success: function(data) {
 
